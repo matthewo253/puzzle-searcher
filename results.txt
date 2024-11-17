@@ -1,0 +1,38 @@
+puzzles with 5-move optimal solutions
+-------------------------------------
+algorithm                num. solved    avg. moves    avg. states tested
+------------------------------------------------------------------------
+random                       10             5.2             799.6
+BFS                          10             5.0             47.1
+DFS (depth limit 20)         10             16.2            19072.7
+DFS (depth limit 50)         10             48.2            49043.0
+Greedy Search (using h1)     10             5.4             70.3
+A* (using h1)                10             5.0             6.5
+
+When looking at the random and BFS it took a shorter amount of time to solve these solutions compared to the 10 move text file as it mainly less to process with the use of 5 optimal moves that allowed it to find it quicker. Many of the moves mainly took a shorter amount of time with the 5 moves needed. Also the algorithms didn't have any solutions terminate because it couldn't find it in an allocated time limit. Many of these solutions other than the DFS solutions took a quick amount of time to solve the whole algorithm.
+
+puzzles with 10-move optimal solutions
+-------------------------------------
+algorithm                num. solved    avg. moves    avg. states tested
+------------------------------------------------------------------------
+random                      8               11.75           7672.875
+BFS                         10              10.0            747.4
+DFS (depth limit 20)        9               18.667          21225.222
+DFS (depth limit 50)        9               49.111          64316.667
+Greedy Search (using h1)    8               76.0            325.625
+A* (using h1)               10              10.0            27.3
+
+When looking at the different algorithms it is mostly easily noticeable in the algorithms that A* had the easiest time calculating the puzzle as it took the least amount of averaging states while solving it all, and it took also the least amount of avg moves while solving all of the puzzles. When looking at it DFS depth limit of 50 had the most difficult time calculating states but it was also due to the fact that the depth limit was 50 compared to the other DFS which caused it to take longer to find solutions. Some algorithms took a long time to calculate like random as it when through the amount of states slower than DFS when calculating it along with BFS, as these states more simpler solutions in order to calculate but took longer because of it.
+
+puzzles with 15-move optimal solutions
+-------------------------------------
+algorithm                num. solved    avg. moves    avg. states tested
+------------------------------------------------------------------------
+random                      4              18.0           11712.75
+BFS                         10             15.0           12672.0
+DFS (depth limit 20)        10             17.8           68659.0
+DFS (depth limit 50)        9              48.556         70523.111
+Greedy Search (using h1)    6              90.333         2718.0
+A* (using h1)               10             15.0           313.8
+
+When looking at the different algorithms they tend to take the longest compared to the other two algorithms, which can also at times cause them to have a less amount of solved because of the time taken. When looking at Greedy Search, it shows the use of parts taking longer along with all the algorithms. When looking at the most effective algorithms it would consist of A* as when using the other more simplistic ones like random of BFS it takes longer because it searches through all of them compared to the other algorithms methods. As Random proves to be the longest in the amount of time spend in trying to find the state as it takes a longer amount of time in order to find states but also takes longer than DFS at the size that both are running through.
